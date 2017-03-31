@@ -1,0 +1,19 @@
+
+# Site settings
+title: LivePerson
+description: ROI Calculator
+
+baseurl: "/roi-calculator"
+
+# Build settings
+markdown: kramdown
+destination: roi-calculator
+exclude:
+  - Gemfile
+
+# Collections
+collections:
+  components:
+    output: false
+  colors:
+    output: false
