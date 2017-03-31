@@ -6,7 +6,7 @@ description: ROI Calculator
 baseurl: "/roi-calculator"
 
 # Build settings
-markdown: kramdown
+markdown: 
 destination: roi-calculator
 exclude:
   - Gemfile
