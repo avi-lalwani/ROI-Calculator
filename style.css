@@ -50,7 +50,7 @@ form input {
   margin: 0 10px 20px 10px; 
   width: 25%; 
   max-width: 350px;
-  min-width: 300px;
+  //min-width: 300px;
   border-bottom: 2px solid #fff; 
 }
 .field#annualCompanyRevenue, 
