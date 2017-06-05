@@ -301,7 +301,7 @@ function outputname() {
   var data2 = [
     {outcome: 'Conservative', A: conservativeBar[0], B: conservativeBar[1]},
     {outcome: 'Likely', A: likelyBar[0], B: likelyBar[1]},
-    {outcome: 'Agressive', A: aggressiveBar[0], B: aggressiveBar[1]}
+    {outcome: 'Aggressive', A: aggressiveBar[0], B: aggressiveBar[1]}
   ];
 
   // Adds up the values of blue part + orange part
@@ -385,7 +385,7 @@ function outputname() {
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        return "<span style='color:#5879DA'>$" + abbreviateNumber(conservativeTotalExpenseSaving) + "</span><br><br>" + "Call Volumn Reduction: " + abbreviateNumber(conservativeCallVolReductionCost) + "<br><br>Lower Cost per Interaction: " + abbreviateNumber(conservativeLowerCostPerInteraction) + "<br><br>Reduced Agent Attrition: " + abbreviateNumber(conservativeReducedAgentAttrition);
+        return "<span style='color:#5879DA'>$" + abbreviateNumber(conservativeTotalExpenseSaving) + "</span><br><br>" + "Call Volume Reduction: " + abbreviateNumber(conservativeCallVolReductionCost) + "<br><br>Lower Cost per Interaction: " + abbreviateNumber(conservativeLowerCostPerInteraction) + "<br><br>Reduced Agent Attrition: " + abbreviateNumber(conservativeReducedAgentAttrition);
       })
       svg.call(tip1);
 
@@ -401,7 +401,7 @@ function outputname() {
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        return "<span style='color:#5879DA'>$" + abbreviateNumber(likelyTotalExpenseSaving) + "</span><br><br>" + "Call Volumn Reduction: " + abbreviateNumber(likelyCallVolReductionCost) + "<br><br>Lower Cost per Interaction: " + abbreviateNumber(likelyLowerCostPerInteraction) + "<br><br>Reduced Agent Attrition: " + abbreviateNumber(likelyReducedAgentAttrition);
+        return "<span style='color:#5879DA'>$" + abbreviateNumber(likelyTotalExpenseSaving) + "</span><br><br>" + "Call Volume Reduction: " + abbreviateNumber(likelyCallVolReductionCost) + "<br><br>Lower Cost per Interaction: " + abbreviateNumber(likelyLowerCostPerInteraction) + "<br><br>Reduced Agent Attrition: " + abbreviateNumber(likelyReducedAgentAttrition);
       })
       svg.call(tip3);
 
@@ -417,7 +417,7 @@ function outputname() {
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        return "<span style='color:#5879DA'>$" + abbreviateNumber(aggressiveTotalExpenseSaving) + "</span><br><br>" + "Call Volumn Reduction: " + abbreviateNumber(aggressiveCallVolReductionCost) + "<br><br>Lower Cost per Interaction: " + abbreviateNumber(aggressiveLowerCostPerInteraction) + "<br><br>Reduced Agent Attrition: " + abbreviateNumber(aggressiveReducedAgentAttrition);
+        return "<span style='color:#5879DA'>$" + abbreviateNumber(aggressiveTotalExpenseSaving) + "</span><br><br>" + "Call Volume Reduction: " + abbreviateNumber(aggressiveCallVolReductionCost) + "<br><br>Lower Cost per Interaction: " + abbreviateNumber(aggressiveLowerCostPerInteraction) + "<br><br>Reduced Agent Attrition: " + abbreviateNumber(aggressiveReducedAgentAttrition);
       })
       svg.call(tip5);
 
